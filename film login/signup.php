@@ -35,7 +35,7 @@ if ($conn->connect_error) {
                 if ($conn->query($sql) == true) {
                     echo "<script type='text/javascript'>";
                     echo "alert('Account Created Successfully!');";
-                    echo "window.location.href = 'file:///C:/xampp/htdocs/film%20login/login.html';";
+                    echo "window.location.href = 'file:///C:/xampp/htdocs/film%20review%20website/codes/film%20login/login.html';";
                     echo "</script>";
                 } else {
                     echo "<script type='text/javascript'>";
