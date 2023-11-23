@@ -21,7 +21,7 @@ if ($conn->connect_error) {
             // Display an alert if the username and password combination exists
             echo "<script type='text/javascript'>";
             echo "alert('Login Sucess');";
-            echo "window.location.href = 'file:///D:/film%20review%20website/codes/index.html';";
+            echo "window.location.href = 'file:///C:/xampp/htdocs/film%20review%20website/codes/film%20login/login.html';";
             echo "</script>";
         }
     }
